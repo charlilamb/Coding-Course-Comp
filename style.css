@@ -4,14 +4,18 @@ body {
 }
 
 .background-image {
-	background-image: url("https://jooinn.com/images/italian-food-background-1.jpg");
-	background-color: #ccddff;
+	background-image: url("https://completehumanperformance.com/wp-content/uploads/2014/05/restaurant5.jpg");
+	
+	background-color: #000;
 	background-size: cover;
 	background-repeat: no-repeat;
 	/* height: 800px; */
 	/* background-position: center; */
 	/* position: relative;
-	background-image: url("https://whc.unesco.org/uploads/thumbs/site_0428_0001-750-0-20100510122518.jpg");
+	background-image: url("https://jooinn.com/images/italian-food-background-1.jpg");
+	
+	#bfbfbf
+	#b3b300
   */
 }
 
@@ -19,7 +23,7 @@ body {
 	width: 100%;
 	top: 0;
 	left: 0;
-	background-color: #003399;
+	background-color: #000033;
 	opacity: 0.60;
 	position: fixed;
 }
@@ -35,4 +39,23 @@ body {
 	text-decoration: none;
 	color: #fff;
 	background-color: inherit;
+	opacity: 1;
+}
+
+.nav-bar-button:hover {
+	background-color: #e6e600;
+}
+
+.centered {
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.title-text {
+	font-size: 100px;
+	color: #fff;
+	text-shadow: 2px 2px #000;
 }

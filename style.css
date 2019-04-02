@@ -1,3 +1,68 @@
+body {
+	line-height: 1.5;
+	font-family: 'Sofia';
+}
+
+.background-image {
+	background-image: url("https://completehumanperformance.com/wp-content/uploads/2014/05/restaurant5.jpg");
+	
+	background-color: #000;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* height: 800px; */
+	/* background-position: center; */
+	/* position: relative;
+	background-image: url("https://jooinn.com/images/italian-food-background-1.jpg");
+	
+	#bfbfbf
+	#b3b300
+  */
+}
+
+.top-bar-header {
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: #000033;
+	opacity: 0.60;
+	position: fixed;
+}
+
+.top-bar-header:hover {
+	opacity: 1;
+}
+
+.nav-bar-button {
+	font-size: 24px;
+	padding: 8px 16px;
+	float: left;
+	text-decoration: none;
+	color: #fff;
+	background-color: inherit;
+	opacity: 1;
+}
+
+.nav-bar-button:hover {
+	background-color: #e6e600;
+}
+
+.centered {
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.title-text {
+	font-size: 100px;
+	color: #fff;
+	text-shadow: 2px 2px #000;
+}
+
+
+/*********************************************************/
+
 * {
   box-sizing: border-box;
 }

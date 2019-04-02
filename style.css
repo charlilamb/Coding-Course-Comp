@@ -1,8 +1,38 @@
+body {
+	line-height: 1.5;
+	font-family: 'Sofia';
+}
+
 .background-image {
-  background-image: url("https://whc.unesco.org/uploads/thumbs/site_0428_0001-750-0-20100510122518.jpg");
-  background-color: #ccddff;
-  height: 800px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+	background-image: url("https://jooinn.com/images/italian-food-background-1.jpg");
+	background-color: #ccddff;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* height: 800px; */
+	/* background-position: center; */
+	/* position: relative;
+	background-image: url("https://whc.unesco.org/uploads/thumbs/site_0428_0001-750-0-20100510122518.jpg");
+  */
+}
+
+.top-bar-header {
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: #003399;
+	opacity: 0.60;
+	position: fixed;
+}
+
+.top-bar-header:hover {
+	opacity: 1;
+}
+
+.nav-bar-button {
+	font-size: 36px;
+	padding: 8px 16px;
+	float: left;
+	text-decoration: none;
+	color: #fff;
+	background-color: inherit;
+}

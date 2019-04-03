@@ -135,16 +135,9 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-
-
-
-
-
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
-
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);

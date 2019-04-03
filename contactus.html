@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bath Advisor</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+	</head>
+	
+	<body style="background-color: #000033">
+		<!-- Top navigation bar -->
+		<div class="top-bar-header">
+			<a href="./index.html" class="nav-bar-button">Home</a>
+			<a href="./restaurants.html" class="nav-bar-button">Restaurants</a>
+			<a href="./contactus.html" class="nav-bar-button">Contact</a>
+			
+			<a href="https://www.facebook.com/Bath-Advisor-359892668070562/" class="nav-bar-button" style="float:right;">
+				Facebook
+			</a>
+			<a href="https://www.instagram.com/bath_advisor/" class="nav-bar-button" style="float:right;">
+				Instagram
+			</a>
+		</div>
+		
+		<br>
+		
+		<h1 class="title-text" style="text-align:center; font-size:50px">Contact Us</h1>
+		<div class="row">
+			<div class="column2">
+				<div class="card">
+					<img src="Images/Charli.jpg" alt="Charli" class=portrait-images>
+					<h2 class="description">Charli</h2>
+					<p class="description">Accounting and Finance</p>
+				</div>
+			</div>
+
+			<div class="column2">
+				<div class="card">
+					<img src="Images/Mia.jpg" alt="Mia" class=portrait-images>
+					<h2 class="description">Mia</h2>
+					<p class="description">Social Sciences</p>
+				</div>
+			</div>
+
+			<div class="column2">
+				<div class="card">
+					<img src="Images/Hashleen.jpg" alt="Hashleen" class=portrait-images>
+					<h2 class="description">Hashleen</h2>
+					<p class="description">Pol and IR</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div style="text-align:center">
+			<br>
+				<p>Let us know your recommendations, or just get in touch!</p>
+			</div>
+			
+			<div class="row">
+				<div class="column" style="width:40%">
+					<img src="Images/bath-logo.png" style="width:100%">
+				</div>
+				<div class="column" style="width:60%">
+					<form action="/action_page.php">
+						<label for="fname">First Name</label>
+						<input type="text" id="fname" name="firstname" placeholder="Your name..">
+						
+						<label for="lname">Last Name</label>
+						<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+						
+						<label for="email">Email</label>
+						<input type="text" id="email" name="email" placeholder="Your email..."
+						
+						<label for="subject">Subject</label>
+						<textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+						
+						<input type="submit" value="Submit">
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

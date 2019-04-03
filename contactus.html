@@ -1,68 +1,85 @@
 <!DOCTYPE html>
 <html>
-<title>Bath Advisor</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
+	<head>
+		<title>Bath Advisor</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+	</head>
+	
+	<body style="background-color: #000033">
+		<!-- Top navigation bar -->
+		<div class="top-bar-header">
+			<a href="./index.html" class="nav-bar-button">Home</a>
+			<a href="./restaurants.html" class="nav-bar-button">Restaurants</a>
+			<a href="./contactus.html" class="nav-bar-button">Contact</a>
+			
+			<a href="https://www.facebook.com/Bath-Advisor-359892668070562/" class="nav-bar-button" style="float:right;">
+				Facebook
+			</a>
+			<a href="https://www.instagram.com/bath_advisor/" class="nav-bar-button" style="float:right;">
+				Instagram
+			</a>
+		</div>
+		
+		<br>
+		
+		<h1 class="title-text" style="text-align:center; font-size:50px">Contact Us</h1>
+		<div class="row">
+			<div class="column2">
+				<div class="card">
+					<img src="Images/Charli.jpg" alt="Charli" class=portrait-images>
+					<h2 class="description">Charli</h2>
+					<p class="description">Accounting and Finance</p>
+				</div>
+			</div>
 
-<body background="https://visitbath.co.uk/images/uploads/site/A_61384_Roman_Baths.jpg">
-<h2 style="text-align:center">Contact Us</h2>
-<br>
+			<div class="column2">
+				<div class="card">
+					<img src="Images/Mia.jpg" alt="Mia" class=portrait-images>
+					<h2 class="description">Mia</h2>
+					<p class="description">Social Sciences</p>
+				</div>
+			</div>
 
-<div class="row">
-<div class="column2">
-    <div class="card">
-      <img src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/44942049_1670939226343275_8401593283863642112_n.jpg?_nc_cat=102&_nc_ht=scontent-lht6-1.xx&oh=6f2c479183f6f179a89c6d132a4ddac9&oe=5D39930D" alt="Charli" style="width:100%">
-      <div class="container">
-        <h2>Charli</h2>
-        <p class="title">Accounting and Finance</p>
-      </div>
-    </div>
-  </div>
+			<div class="column2">
+				<div class="card">
+					<img src="Images/Hashleen.jpg" alt="Hashleen" class=portrait-images>
+					<h2 class="description">Hashleen</h2>
+					<p class="description">Pol and IR</p>
+				</div>
+			</div>
+		</div>
 
-  <div class="column2">
-  <div class="card">
-    <img src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/19510586_10213416554754098_587115972010134117_n.jpg?_nc_cat=100&_nc_ht=scontent-lht6-1.xx&oh=d07bf4bc70efe72c559c19b6c723ada8&oe=5D3D8F37" alt="Mia" style="width:100%">
-      <div class="container">
-        <h2>Mia</h2>
-        <p class="title">Social Sciences</p>
-      </div>
-  </div>
-  </div>
-
-  <div class="column2">
-  <div class="card">
-      <img src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/49189230_2239596949386470_8748374642764283904_n.jpg?_nc_cat=110&_nc_ht=scontent-lht6-1.xx&oh=001c7d15c5952f2397941f5faceb888f&oe=5D057F26" alt="Hashleen" style="width:100%">
-      <div class="container">
-        <h2>Hashleen</h2>
-        <p class="title">Pol and IR</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="container">
-  <div style="text-align:center">
-    <h2>Contact Us</h2>
-    <p>Let us know your recommendations, or just get in touch!</p>
-  </div>
-  <div class="row">
-    <div class="column">
-      <img src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.15752-9/56226078_534838277040927_9126268212181204992_n.png?_nc_cat=100&_nc_ht=scontent-lht6-1.xx&oh=896af2212caff1a9fa86649190264c67&oe=5D0382B2" style="width:100%">
-    </div>
-    <div class="column">
-      <form action="/action_page.php">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        <label for="email">Email</label>
-        <input type="text" id="email" name="email" placeholder="Your email..."
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-        <input type="submit" value="Submit">
-      </form>
-    </div>
-  </div>
-</div>
+		<div class="container">
+			<div style="text-align:center">
+			<br>
+				<p>Let us know your recommendations, or just get in touch!</p>
+			</div>
+			
+			<div class="row">
+				<div class="column" style="width:40%">
+					<img src="Images/bath-logo.png" style="width:100%">
+				</div>
+				<div class="column" style="width:60%">
+					<form action="/action_page.php">
+						<label for="fname">First Name</label>
+						<input type="text" id="fname" name="firstname" placeholder="Your name..">
+						
+						<label for="lname">Last Name</label>
+						<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+						
+						<label for="email">Email</label>
+						<input type="text" id="email" name="email" placeholder="Your email..."
+						
+						<label for="subject">Subject</label>
+						<textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+						
+						<input type="submit" value="Submit">
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

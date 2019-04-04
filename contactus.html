@@ -6,9 +6,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="style.css">
 		<link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+		<script type="text/javascript" src="functions.js"></script>
 	</head>
 	
-	<body style="background-color: #000033">
+	<body onload="startTime()">
 		<!-- Top navigation bar -->
 		<div class="top-bar-header">
 			<a href="./index.html" class="nav-bar-button">Home</a>
@@ -31,6 +32,7 @@
 					<input type="text" placeholder="Search.." name="search" style="padding: 8px 8px; margin-bottom: 0;">
 				</form>
 			</div>
+			<div class="clock" id="txt"></div>
 		</div>
 		
 		<br>
@@ -73,7 +75,7 @@
 					<img src="Images/bath-logo.png" style="width:100%">
 				</div>
 				<div class="column" style="width:60%">
-					<form action="/action_page.php">
+					<form action="./contactus.html"  onsubmit="submitted()">
 						<label for="fname">First Name</label>
 						<input type="text" id="fname" name="firstname" placeholder="Your name..">
 						

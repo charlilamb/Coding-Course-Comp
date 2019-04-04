@@ -2,14 +2,80 @@ body {
 	line-height: 1.5;
 	font-family: 'Sofia';
 	box-sizing: border-box;
+	min-height:100%;
+	background-color: #000033;
+	margin-left:0;
+	margin-right:0;
 }
 
-.background-image {
-	background-image: url("Images/background.jpg");
+/* CSS for index.html */
+
+.background1 { 
+	background-image: url("Images/background.jpg"); 
 	background-color: #000;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
 }
+.background2 { 
+	background-image: url("Images/background2.jpg"); 
+	background-color: #000;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.centered {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.title-text {
+	font-size: 100px;
+	color: #fff;
+	text-shadow: 2px 2px #000;
+	position:relative;
+	margin-block-end:0%;
+}
+
+.lower-text {
+	color: #fff;
+	font-size: 50px;
+	text-align:center;
+	position:relative;
+	text-shadow: 2px 2px #000;
+}
+
+.section {
+	position:relative;
+	overflow:hidden;
+	height:90vh;
+	width:100%;
+}
+
+.mapouter{
+	position:relative;
+	text-align:right;
+	height:80vh;
+	width:75%;
+	margin-left:12.5%;
+	margin-right: 12.5%;
+	margin-bottom: 12.5%;
+	border: 2px solid #000;
+}
+
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:100%;
+	width:100%;
+}
+
+/* CSS for universal navigation bar */
 
 .top-bar-header {
 	width: 100%;
@@ -18,6 +84,7 @@ body {
 	background-color: #000033;
 	opacity: 0.60;
 	position: fixed;
+	z-index:1;
 }
 
 .top-bar-header:hover {
@@ -35,30 +102,59 @@ body {
 }
 
 .nav-bar-button:hover {
-	background-color: #e6e600;
+	background-color: #008CBA;
 }
 
-.centered {
-	text-align: center;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+.icon-button {
+	height:40px;
+	width: 40px;
 }
 
-.title-text {
-	font-size: 100px;
-	color: #fff;
-	text-shadow: 2px 2px #000;
+.dropbtn {
+  background-color: inherit;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 24px;
+  border: none;
+  text-decoration: none;
+  opacity: 1;
+  font-family: 'Sofia';
 }
 
-.lower-text {
-	color: #fff;
-	font-size: 30px;
-	text-align:center;
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: left;
 }
 
-/*********************************************************/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #008CBA;}
+
+.search-container {
+	float:right;
+	width: 20%;
+}
+
+/* CSS for contacus.html */
 
 .row:after {
   content: "";
@@ -85,21 +181,6 @@ body {
 	color: #fff;
 	text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 input[type=text], select, textarea {
   width: 100%;
@@ -153,9 +234,7 @@ input[type=submit]:hover {
   display: table;
 }
 
-
-
-
+/* CSS for bars.html and restaurants.html */
 
 .overlay-container {
   position: relative;
@@ -170,8 +249,10 @@ input[type=submit]:hover {
 	height: inherit;
 	width: inherit;
 	opacity: 0;
-	transition: .5s ease;
+	transition: .75s ease;
 	background-color: #008CBA;
+	width:75%;
+	border: 2px solid #f2f2f2;
 }
 
 .overlay-container:hover .overlay {

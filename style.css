@@ -8,13 +8,20 @@ body {
 	margin-right:0;
 }
 
-.background-image {
-	background-image: url("Images/background.jpg");
+.background1 { 
+	background-image: url("Images/background.jpg"); 
 	background-color: #000;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	
+}
+.background2 { 
+	background-image: url("Images/background2.jpg"); 
+	background-color: #000;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .top-bar-header {
@@ -43,6 +50,11 @@ body {
 
 .nav-bar-button:hover {
 	background-color: #008CBA;
+}
+
+.icon-button {
+	height:40px;
+	width: 40px;
 }
 
 .centered {

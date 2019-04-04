@@ -4,9 +4,10 @@
 		<title> Bath Advisor </title>
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+		<script type="text/javascript" src="functions.js"></script>
 	</head>
 
-	<body style="background-color: #000033">
+	<body onload="startTime()">
 
 		<div class="top-bar-header">
 			<a href="./index.html" class="nav-bar-button">Home</a>
@@ -24,6 +25,13 @@
 			<a href="https://www.instagram.com/bath_advisor/" class="nav-bar-button" style="float:right; padding: 4px 4px; padding-bottom: 0px;">
 				<img src="Images/instagram.png" class="icon-button">
 			</a>
+			<div class="search-container">
+				<form action="./index.html">
+					<input type="text" placeholder="Search.." name="search" style="padding: 8px 8px; margin-bottom: 0;">
+				</form>
+			</div>
+			
+			<div class="clock" id="txt"></div>
 		</div>
 
 		<br>

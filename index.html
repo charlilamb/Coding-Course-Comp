@@ -5,9 +5,10 @@
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
 		<script type="text/javascript" src="functions.js"></script>
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
 	</head>
 
-	<body>
+	<body onload="startTime()">
 		<div class="top-bar-header">
 			<a href="./index.html" class="nav-bar-button">Home</a>
 			<div class="dropdown">
@@ -24,10 +25,19 @@
 			<a href="https://www.instagram.com/bath_advisor/" class="nav-bar-button" style="float:right; padding: 4px 4px; padding-bottom: 0px;">
 				<img src="Images/instagram.png" class="icon-button">
 			</a>
+			
+			<div class="search-container">
+				<form action="./index.html">
+					<input type="text" placeholder="Search.." name="search" style="padding: 8px 8px; margin-bottom: 0;">
+				</form>
+			</div>
+			
+			<div class="clock" id="txt"></div>
 		</div>
+		
 		<div class="section background1" id="test">
 			<div class="centered">
-				<script> backgroundSwitch(5000,3); </script>
+				<script> backgroundSwitch(7500,3); </script>
 				<img src="Images/bath-logo.png">
 				<h1 class="title-text"> Bath Advisor </h1>
 				<p class="lower-text" style="margin-block-start:0%;"> For all your Bath foodie needs </p>
